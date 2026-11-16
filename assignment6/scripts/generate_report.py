@@ -161,12 +161,40 @@ def generate_part2_report():
         style="List Bullet",
     )
 
+    # --- Simulation Screenshots ---
+    doc.add_heading("Simulation Outputs", level=2)
+    doc.add_paragraph(
+        "The following screenshots show the gem5 simulation terminal output for "
+        "representative runs and the batch experiment summary."
+    )
+
+    if (IMAGES_DIR / "screenshot1.png").exists():
+        doc.add_picture(str(IMAGES_DIR / "screenshot1.png"), width=Inches(5.5))
+        p = doc.add_paragraph(
+            "Figure 1: gem5 simulation output for 1-core run (opLat=3, issueLat=4)"
+        )
+        p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+
+    if (IMAGES_DIR / "screenshot2.png").exists():
+        doc.add_picture(str(IMAGES_DIR / "screenshot2.png"), width=Inches(5.5))
+        p = doc.add_paragraph(
+            "Figure 2: gem5 simulation output for 4-core run (opLat=3, issueLat=4)"
+        )
+        p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+
+    if (IMAGES_DIR / "screenshot3.png").exists():
+        doc.add_picture(str(IMAGES_DIR / "screenshot3.png"), width=Inches(5.5))
+        p = doc.add_paragraph(
+            "Figure 3: Batch experiment run with summary table of all 24 configurations"
+        )
+        p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+
     # --- Results ---
     doc.add_heading("Results", level=1)
 
     doc.add_heading("Overall Simulation Time", level=2)
     doc.add_paragraph(
-        "Figure 1 shows the simulation ticks (total execution time) as a heatmap "
+        "Figure 4 shows the simulation ticks (total execution time) as a heatmap "
         "across all configurations. The key observations are:"
     )
     doc.add_paragraph(
@@ -185,12 +213,12 @@ def generate_part2_report():
         doc.add_picture(
             str(IMAGES_DIR / "sim_ticks_heatmap.png"), width=Inches(5.5)
         )
-        p = doc.add_paragraph("Figure 1: Simulation ticks by configuration (heatmap)")
+        p = doc.add_paragraph("Figure 4: Simulation ticks by configuration (heatmap)")
         p.alignment = WD_ALIGN_PARAGRAPH.CENTER
 
     doc.add_heading("Simulation Time vs Thread Count", level=2)
     doc.add_paragraph(
-        "Figure 2 shows how simulation time decreases with increasing core count. "
+        "Figure 5 shows how simulation time decreases with increasing core count. "
         "Several important trends emerge:"
     )
     doc.add_paragraph(
@@ -217,12 +245,12 @@ def generate_part2_report():
         doc.add_picture(
             str(IMAGES_DIR / "ticks_vs_threads.png"), width=Inches(5.5)
         )
-        p = doc.add_paragraph("Figure 2: Simulation time vs thread count")
+        p = doc.add_paragraph("Figure 5: Simulation time vs thread count")
         p.alignment = WD_ALIGN_PARAGRAPH.CENTER
 
     doc.add_heading("Parallel Speedup", level=2)
     doc.add_paragraph(
-        "Figure 3 shows the parallel speedup relative to the single-core execution "
+        "Figure 6 shows the parallel speedup relative to the single-core execution "
         "with the same FU configuration. The speedup is modest (approximately 1.02x "
         "to 1.07x) because the DAXPY workload has a fixed overhead from process "
         "initialization, memory allocation, and I/O that does not scale with "
@@ -240,12 +268,12 @@ def generate_part2_report():
         doc.add_picture(
             str(IMAGES_DIR / "speedup_chart.png"), width=Inches(5.5)
         )
-        p = doc.add_paragraph("Figure 3: Parallel speedup by FloatSimdFU design")
+        p = doc.add_paragraph("Figure 6: Parallel speedup by FloatSimdFU design")
         p.alignment = WD_ALIGN_PARAGRAPH.CENTER
 
     doc.add_heading("CPI Analysis", level=2)
     doc.add_paragraph(
-        "Figure 4 shows the Cycles Per Instruction (CPI) for core 0 across "
+        "Figure 7 shows the Cycles Per Instruction (CPI) for core 0 across "
         "configurations. The CPI increases with more cores because the total "
         "instruction count per core increases due to initialization overhead being "
         "replicated per process, while the actual computation per core decreases. "
@@ -255,7 +283,7 @@ def generate_part2_report():
         doc.add_picture(
             str(IMAGES_DIR / "cpi_comparison.png"), width=Inches(5.5)
         )
-        p = doc.add_paragraph("Figure 4: CPI comparison by configuration")
+        p = doc.add_paragraph("Figure 7: CPI comparison by configuration")
         p.alignment = WD_ALIGN_PARAGRAPH.CENTER
 
     # --- Results Table ---

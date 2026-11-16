@@ -1,0 +1,950 @@
+[
+  {
+    "simTicks": 2605362000,
+    "simOps": 148282,
+    "simInsts": 83218,
+    "simSeconds": 0.002605,
+    "hostSeconds": 2.3,
+    "per_core": {
+      "0": {
+        "numCycles": 5210724,
+        "cpi": 62.615348,
+        "ipc": 0.015971
+      }
+    },
+    "floatsimd_issued": {
+      "0": 67988
+    },
+    "run_name": "threads1_op1_iss6",
+    "num_threads": 1,
+    "op_lat": 1,
+    "issue_lat": 6,
+    "array_size": 1024,
+    "returncode": 0
+  },
+  {
+    "simTicks": 2574761000,
+    "simOps": 148282,
+    "simInsts": 83218,
+    "simSeconds": 0.002575,
+    "hostSeconds": 2.41,
+    "per_core": {
+      "0": {
+        "numCycles": 5149522,
+        "cpi": 61.879906,
+        "ipc": 0.01616
+      }
+    },
+    "floatsimd_issued": {
+      "0": 67990
+    },
+    "run_name": "threads1_op2_iss5",
+    "num_threads": 1,
+    "op_lat": 2,
+    "issue_lat": 5,
+    "array_size": 1024,
+    "returncode": 0
+  },
+  {
+    "simTicks": 2544227500,
+    "simOps": 148282,
+    "simInsts": 83218,
+    "simSeconds": 0.002544,
+    "hostSeconds": 2.47,
+    "per_core": {
+      "0": {
+        "numCycles": 5088455,
+        "cpi": 61.146086,
+        "ipc": 0.016354
+      }
+    },
+    "floatsimd_issued": {
+      "0": 67996
+    },
+    "run_name": "threads1_op3_iss4",
+    "num_threads": 1,
+    "op_lat": 3,
+    "issue_lat": 4,
+    "array_size": 1024,
+    "returncode": 0
+  },
+  {
+    "simTicks": 2516396000,
+    "simOps": 148282,
+    "simInsts": 83218,
+    "simSeconds": 0.002516,
+    "hostSeconds": 2.57,
+    "per_core": {
+      "0": {
+        "numCycles": 5032792,
+        "cpi": 60.477204,
+        "ipc": 0.016535
+      }
+    },
+    "floatsimd_issued": {
+      "0": 68003
+    },
+    "run_name": "threads1_op4_iss3",
+    "num_threads": 1,
+    "op_lat": 4,
+    "issue_lat": 3,
+    "array_size": 1024,
+    "returncode": 0
+  },
+  {
+    "simTicks": 2511248000,
+    "simOps": 148282,
+    "simInsts": 83218,
+    "simSeconds": 0.002511,
+    "hostSeconds": 2.53,
+    "per_core": {
+      "0": {
+        "numCycles": 5022496,
+        "cpi": 60.353481,
+        "ipc": 0.016569
+      }
+    },
+    "floatsimd_issued": {
+      "0": 68012
+    },
+    "run_name": "threads1_op5_iss2",
+    "num_threads": 1,
+    "op_lat": 5,
+    "issue_lat": 2,
+    "array_size": 1024,
+    "returncode": 0
+  },
+  {
+    "simTicks": 2506199500,
+    "simOps": 148282,
+    "simInsts": 83218,
+    "simSeconds": 0.002506,
+    "hostSeconds": 2.61,
+    "per_core": {
+      "0": {
+        "numCycles": 5012399,
+        "cpi": 60.232149,
+        "ipc": 0.016602
+      }
+    },
+    "floatsimd_issued": {
+      "0": 68144
+    },
+    "run_name": "threads1_op6_iss1",
+    "num_threads": 1,
+    "op_lat": 6,
+    "issue_lat": 1,
+    "array_size": 1024,
+    "returncode": 0
+  },
+  {
+    "simTicks": 2499860500,
+    "simOps": 165062,
+    "simInsts": 92223,
+    "simSeconds": 0.0025,
+    "hostSeconds": 5.05,
+    "per_core": {
+      "0": {
+        "numCycles": 4999721,
+        "cpi": 108.247185,
+        "ipc": 0.009238
+      },
+      "1": {
+        "numCycles": 4605011,
+        "cpi": 100.032823,
+        "ipc": 0.009997
+      }
+    },
+    "floatsimd_issued": {
+      "0": 34062,
+      "1": 34064
+    },
+    "run_name": "threads2_op1_iss6",
+    "num_threads": 2,
+    "op_lat": 1,
+    "issue_lat": 6,
+    "array_size": 1024,
+    "returncode": 0
+  },
+  {
+    "simTicks": 2484940000,
+    "simOps": 165062,
+    "simInsts": 92223,
+    "simSeconds": 0.002485,
+    "hostSeconds": 5.08,
+    "per_core": {
+      "0": {
+        "numCycles": 4969880,
+        "cpi": 107.601109,
+        "ipc": 0.009294
+      },
+      "1": {
+        "numCycles": 4574988,
+        "cpi": 99.380645,
+        "ipc": 0.010062
+      }
+    },
+    "floatsimd_issued": {
+      "0": 34063,
+      "1": 34065
+    },
+    "run_name": "threads2_op2_iss5",
+    "num_threads": 2,
+    "op_lat": 2,
+    "issue_lat": 5,
+    "array_size": 1024,
+    "returncode": 0
+  },
+  {
+    "simTicks": 2470161500,
+    "simOps": 165062,
+    "simInsts": 92223,
+    "simSeconds": 0.00247,
+    "hostSeconds": 5.03,
+    "per_core": {
+      "0": {
+        "numCycles": 4940323,
+        "cpi": 106.96118,
+        "ipc": 0.009349
+      },
+      "1": {
+        "numCycles": 4544980,
+        "cpi": 98.728793,
+        "ipc": 0.010129
+      }
+    },
+    "floatsimd_issued": {
+      "0": 34068,
+      "1": 34070
+    },
+    "run_name": "threads2_op3_iss4",
+    "num_threads": 2,
+    "op_lat": 3,
+    "issue_lat": 4,
+    "array_size": 1024,
+    "returncode": 0
+  },
+  {
+    "simTicks": 2455592500,
+    "simOps": 165062,
+    "simInsts": 92223,
+    "simSeconds": 0.002456,
+    "hostSeconds": 5.11,
+    "per_core": {
+      "0": {
+        "numCycles": 4911185,
+        "cpi": 106.330324,
+        "ipc": 0.009405
+      },
+      "1": {
+        "numCycles": 4517235,
+        "cpi": 98.1261,
+        "ipc": 0.010191
+      }
+    },
+    "floatsimd_issued": {
+      "0": 34074,
+      "1": 34076
+    },
+    "run_name": "threads2_op4_iss3",
+    "num_threads": 2,
+    "op_lat": 4,
+    "issue_lat": 3,
+    "array_size": 1024,
+    "returncode": 0
+  },
+  {
+    "simTicks": 2461266500,
+    "simOps": 165062,
+    "simInsts": 92223,
+    "simSeconds": 0.002461,
+    "hostSeconds": 5.08,
+    "per_core": {
+      "0": {
+        "numCycles": 4922533,
+        "cpi": 106.576015,
+        "ipc": 0.009383
+      },
+      "1": {
+        "numCycles": 4528493,
+        "cpi": 98.370653,
+        "ipc": 0.010166
+      }
+    },
+    "floatsimd_issued": {
+      "0": 34083,
+      "1": 34085
+    },
+    "run_name": "threads2_op5_iss2",
+    "num_threads": 2,
+    "op_lat": 5,
+    "issue_lat": 2,
+    "array_size": 1024,
+    "returncode": 0
+  },
+  {
+    "simTicks": 2459192000,
+    "simOps": 165062,
+    "simInsts": 92223,
+    "simSeconds": 0.002459,
+    "hostSeconds": 4.93,
+    "per_core": {
+      "0": {
+        "numCycles": 4918384,
+        "cpi": 106.486187,
+        "ipc": 0.009391
+      },
+      "1": {
+        "numCycles": 4522782,
+        "cpi": 98.246595,
+        "ipc": 0.010178
+      }
+    },
+    "floatsimd_issued": {
+      "0": 34151,
+      "1": 34153
+    },
+    "run_name": "threads2_op6_iss1",
+    "num_threads": 2,
+    "op_lat": 6,
+    "issue_lat": 1,
+    "array_size": 1024,
+    "returncode": 0
+  },
+  {
+    "simTicks": 2448989500,
+    "simOps": 198658,
+    "simInsts": 110265,
+    "simSeconds": 0.002449,
+    "hostSeconds": 9.66,
+    "per_core": {
+      "0": {
+        "numCycles": 4897979,
+        "cpi": 176.873429,
+        "ipc": 0.005654
+      },
+      "1": {
+        "numCycles": 4505439,
+        "cpi": 163.732929,
+        "ipc": 0.006108
+      },
+      "2": {
+        "numCycles": 4505176,
+        "cpi": 163.723371,
+        "ipc": 0.006108
+      },
+      "3": {
+        "numCycles": 4505466,
+        "cpi": 163.603108,
+        "ipc": 0.006112
+      }
+    },
+    "floatsimd_issued": {
+      "0": 17100,
+      "1": 17100,
+      "2": 17100,
+      "3": 17102
+    },
+    "run_name": "threads4_op1_iss6",
+    "num_threads": 4,
+    "op_lat": 1,
+    "issue_lat": 6,
+    "array_size": 1024,
+    "returncode": 0
+  },
+  {
+    "simTicks": 2441438000,
+    "simOps": 198658,
+    "simInsts": 110265,
+    "simSeconds": 0.002441,
+    "hostSeconds": 9.75,
+    "per_core": {
+      "0": {
+        "numCycles": 4882876,
+        "cpi": 176.328037,
+        "ipc": 0.005671
+      },
+      "1": {
+        "numCycles": 4489275,
+        "cpi": 163.14551,
+        "ipc": 0.006129
+      },
+      "2": {
+        "numCycles": 4489226,
+        "cpi": 163.143729,
+        "ipc": 0.00613
+      },
+      "3": {
+        "numCycles": 4489211,
+        "cpi": 163.012854,
+        "ipc": 0.006134
+      }
+    },
+    "floatsimd_issued": {
+      "0": 17100,
+      "1": 17100,
+      "2": 17100,
+      "3": 17102
+    },
+    "run_name": "threads4_op2_iss5",
+    "num_threads": 4,
+    "op_lat": 2,
+    "issue_lat": 5,
+    "array_size": 1024,
+    "returncode": 0
+  },
+  {
+    "simTicks": 2433804500,
+    "simOps": 198658,
+    "simInsts": 110265,
+    "simSeconds": 0.002434,
+    "hostSeconds": 10.13,
+    "per_core": {
+      "0": {
+        "numCycles": 4867609,
+        "cpi": 175.776723,
+        "ipc": 0.005689
+      },
+      "1": {
+        "numCycles": 4473664,
+        "cpi": 162.578188,
+        "ipc": 0.006151
+      },
+      "2": {
+        "numCycles": 4473637,
+        "cpi": 162.577207,
+        "ipc": 0.006151
+      },
+      "3": {
+        "numCycles": 4473652,
+        "cpi": 162.447874,
+        "ipc": 0.006156
+      }
+    },
+    "floatsimd_issued": {
+      "0": 17104,
+      "1": 17104,
+      "2": 17104,
+      "3": 17106
+    },
+    "run_name": "threads4_op3_iss4",
+    "num_threads": 4,
+    "op_lat": 3,
+    "issue_lat": 4,
+    "array_size": 1024,
+    "returncode": 0
+  },
+  {
+    "simTicks": 2426675500,
+    "simOps": 198658,
+    "simInsts": 110265,
+    "simSeconds": 0.002427,
+    "hostSeconds": 9.99,
+    "per_core": {
+      "0": {
+        "numCycles": 4853351,
+        "cpi": 175.261845,
+        "ipc": 0.005706
+      },
+      "1": {
+        "numCycles": 4461207,
+        "cpi": 162.125486,
+        "ipc": 0.006168
+      },
+      "2": {
+        "numCycles": 4459954,
+        "cpi": 162.079951,
+        "ipc": 0.00617
+      },
+      "3": {
+        "numCycles": 4460773,
+        "cpi": 161.98021,
+        "ipc": 0.006174
+      }
+    },
+    "floatsimd_issued": {
+      "0": 17109,
+      "1": 17109,
+      "2": 17109,
+      "3": 17111
+    },
+    "run_name": "threads4_op4_iss3",
+    "num_threads": 4,
+    "op_lat": 4,
+    "issue_lat": 3,
+    "array_size": 1024,
+    "returncode": 0
+  },
+  {
+    "simTicks": 2438622500,
+    "simOps": 198658,
+    "simInsts": 110265,
+    "simSeconds": 0.002439,
+    "hostSeconds": 9.6,
+    "per_core": {
+      "0": {
+        "numCycles": 4877245,
+        "cpi": 176.124693,
+        "ipc": 0.005678
+      },
+      "1": {
+        "numCycles": 4482753,
+        "cpi": 162.908493,
+        "ipc": 0.006138
+      },
+      "2": {
+        "numCycles": 4482768,
+        "cpi": 162.909038,
+        "ipc": 0.006138
+      },
+      "3": {
+        "numCycles": 4482215,
+        "cpi": 162.758815,
+        "ipc": 0.006144
+      }
+    },
+    "floatsimd_issued": {
+      "0": 17118,
+      "1": 17118,
+      "2": 17118,
+      "3": 17120
+    },
+    "run_name": "threads4_op5_iss2",
+    "num_threads": 4,
+    "op_lat": 5,
+    "issue_lat": 2,
+    "array_size": 1024,
+    "returncode": 0
+  },
+  {
+    "simTicks": 2436714000,
+    "simOps": 198658,
+    "simInsts": 110265,
+    "simSeconds": 0.002437,
+    "hostSeconds": 11.38,
+    "per_core": {
+      "0": {
+        "numCycles": 4873428,
+        "cpi": 175.986855,
+        "ipc": 0.005682
+      },
+      "1": {
+        "numCycles": 4480768,
+        "cpi": 162.836356,
+        "ipc": 0.006141
+      },
+      "2": {
+        "numCycles": 4478800,
+        "cpi": 162.764836,
+        "ipc": 0.006144
+      },
+      "3": {
+        "numCycles": 4480206,
+        "cpi": 162.685864,
+        "ipc": 0.006147
+      }
+    },
+    "floatsimd_issued": {
+      "0": 17154,
+      "1": 17154,
+      "2": 17154,
+      "3": 17156
+    },
+    "run_name": "threads4_op6_iss1",
+    "num_threads": 4,
+    "op_lat": 6,
+    "issue_lat": 1,
+    "array_size": 1024,
+    "returncode": 0
+  },
+  {
+    "simTicks": 2425144500,
+    "simOps": 265850,
+    "simInsts": 146349,
+    "simSeconds": 0.002425,
+    "hostSeconds": 20.46,
+    "per_core": {
+      "0": {
+        "numCycles": 4850289,
+        "cpi": 262.973813,
+        "ipc": 0.003803
+      },
+      "1": {
+        "numCycles": 4456674,
+        "cpi": 243.947342,
+        "ipc": 0.004099
+      },
+      "2": {
+        "numCycles": 4457500,
+        "cpi": 243.992556,
+        "ipc": 0.004098
+      },
+      "3": {
+        "numCycles": 4457381,
+        "cpi": 243.986042,
+        "ipc": 0.004099
+      },
+      "4": {
+        "numCycles": 4456163,
+        "cpi": 243.919372,
+        "ipc": 0.0041
+      },
+      "5": {
+        "numCycles": 4457607,
+        "cpi": 243.998413,
+        "ipc": 0.004098
+      },
+      "6": {
+        "numCycles": 4456776,
+        "cpi": 243.952926,
+        "ipc": 0.004099
+      },
+      "7": {
+        "numCycles": 4456223,
+        "cpi": 243.629271,
+        "ipc": 0.004105
+      }
+    },
+    "floatsimd_issued": {
+      "0": 8620,
+      "1": 8620,
+      "2": 8620,
+      "3": 8620,
+      "4": 8620,
+      "5": 8620,
+      "6": 8620,
+      "7": 8622
+    },
+    "run_name": "threads8_op1_iss6",
+    "num_threads": 8,
+    "op_lat": 1,
+    "issue_lat": 6,
+    "array_size": 1024,
+    "returncode": 0
+  },
+  {
+    "simTicks": 2420989000,
+    "simOps": 265850,
+    "simInsts": 146349,
+    "simSeconds": 0.002421,
+    "hostSeconds": 20.38,
+    "per_core": {
+      "0": {
+        "numCycles": 4841978,
+        "cpi": 262.523205,
+        "ipc": 0.003809
+      },
+      "1": {
+        "numCycles": 4450356,
+        "cpi": 243.601511,
+        "ipc": 0.004105
+      },
+      "2": {
+        "numCycles": 4450213,
+        "cpi": 243.593683,
+        "ipc": 0.004105
+      },
+      "3": {
+        "numCycles": 4450368,
+        "cpi": 243.602168,
+        "ipc": 0.004105
+      },
+      "4": {
+        "numCycles": 4447965,
+        "cpi": 243.470633,
+        "ipc": 0.004107
+      },
+      "5": {
+        "numCycles": 4450178,
+        "cpi": 243.591767,
+        "ipc": 0.004105
+      },
+      "6": {
+        "numCycles": 4450193,
+        "cpi": 243.592589,
+        "ipc": 0.004105
+      },
+      "7": {
+        "numCycles": 4448123,
+        "cpi": 243.18643,
+        "ipc": 0.004112
+      }
+    },
+    "floatsimd_issued": {
+      "0": 8620,
+      "1": 8620,
+      "2": 8620,
+      "3": 8620,
+      "4": 8620,
+      "5": 8620,
+      "6": 8620,
+      "7": 8622
+    },
+    "run_name": "threads8_op2_iss5",
+    "num_threads": 8,
+    "op_lat": 2,
+    "issue_lat": 5,
+    "array_size": 1024,
+    "returncode": 0
+  },
+  {
+    "simTicks": 2418076500,
+    "simOps": 265850,
+    "simInsts": 146349,
+    "simSeconds": 0.002418,
+    "hostSeconds": 19.04,
+    "per_core": {
+      "0": {
+        "numCycles": 4836153,
+        "cpi": 262.207385,
+        "ipc": 0.003814
+      },
+      "1": {
+        "numCycles": 4442435,
+        "cpi": 243.167935,
+        "ipc": 0.004112
+      },
+      "2": {
+        "numCycles": 4442499,
+        "cpi": 243.171438,
+        "ipc": 0.004112
+      },
+      "3": {
+        "numCycles": 4442537,
+        "cpi": 243.173518,
+        "ipc": 0.004112
+      },
+      "4": {
+        "numCycles": 4440748,
+        "cpi": 243.075593,
+        "ipc": 0.004114
+      },
+      "5": {
+        "numCycles": 4442606,
+        "cpi": 243.177295,
+        "ipc": 0.004112
+      },
+      "6": {
+        "numCycles": 4442033,
+        "cpi": 243.14593,
+        "ipc": 0.004113
+      },
+      "7": {
+        "numCycles": 4441984,
+        "cpi": 242.850801,
+        "ipc": 0.004118
+      }
+    },
+    "floatsimd_issued": {
+      "0": 8624,
+      "1": 8624,
+      "2": 8624,
+      "3": 8624,
+      "4": 8624,
+      "5": 8624,
+      "6": 8624,
+      "7": 8626
+    },
+    "run_name": "threads8_op3_iss4",
+    "num_threads": 8,
+    "op_lat": 3,
+    "issue_lat": 4,
+    "array_size": 1024,
+    "returncode": 0
+  },
+  {
+    "simTicks": 2414353000,
+    "simOps": 265850,
+    "simInsts": 146349,
+    "simSeconds": 0.002414,
+    "hostSeconds": 20.58,
+    "per_core": {
+      "0": {
+        "numCycles": 4828706,
+        "cpi": 261.803622,
+        "ipc": 0.00382
+      },
+      "1": {
+        "numCycles": 4435329,
+        "cpi": 242.77897,
+        "ipc": 0.004119
+      },
+      "2": {
+        "numCycles": 4435406,
+        "cpi": 242.783185,
+        "ipc": 0.004119
+      },
+      "3": {
+        "numCycles": 4435048,
+        "cpi": 242.763589,
+        "ipc": 0.004119
+      },
+      "4": {
+        "numCycles": 4433924,
+        "cpi": 242.702064,
+        "ipc": 0.00412
+      },
+      "5": {
+        "numCycles": 4435139,
+        "cpi": 242.76857,
+        "ipc": 0.004119
+      },
+      "6": {
+        "numCycles": 4434966,
+        "cpi": 242.7591,
+        "ipc": 0.004119
+      },
+      "7": {
+        "numCycles": 4434114,
+        "cpi": 242.420535,
+        "ipc": 0.004125
+      }
+    },
+    "floatsimd_issued": {
+      "0": 8629,
+      "1": 8629,
+      "2": 8629,
+      "3": 8629,
+      "4": 8629,
+      "5": 8629,
+      "6": 8629,
+      "7": 8631
+    },
+    "run_name": "threads8_op4_iss3",
+    "num_threads": 8,
+    "op_lat": 4,
+    "issue_lat": 3,
+    "array_size": 1024,
+    "returncode": 0
+  },
+  {
+    "simTicks": 2427967500,
+    "simOps": 265850,
+    "simInsts": 146349,
+    "simSeconds": 0.002428,
+    "hostSeconds": 20.51,
+    "per_core": {
+      "0": {
+        "numCycles": 4855935,
+        "cpi": 263.279928,
+        "ipc": 0.003798
+      },
+      "1": {
+        "numCycles": 4463217,
+        "cpi": 244.30549,
+        "ipc": 0.004093
+      },
+      "2": {
+        "numCycles": 4463157,
+        "cpi": 244.302206,
+        "ipc": 0.004093
+      },
+      "3": {
+        "numCycles": 4463182,
+        "cpi": 244.303574,
+        "ipc": 0.004093
+      },
+      "4": {
+        "numCycles": 4461462,
+        "cpi": 244.209426,
+        "ipc": 0.004095
+      },
+      "5": {
+        "numCycles": 4463202,
+        "cpi": 244.304669,
+        "ipc": 0.004093
+      },
+      "6": {
+        "numCycles": 4463027,
+        "cpi": 244.29509,
+        "ipc": 0.004093
+      },
+      "7": {
+        "numCycles": 4461631,
+        "cpi": 243.924936,
+        "ipc": 0.0041
+      }
+    },
+    "floatsimd_issued": {
+      "0": 8638,
+      "1": 8638,
+      "2": 8638,
+      "3": 8638,
+      "4": 8638,
+      "5": 8638,
+      "6": 8638,
+      "7": 8640
+    },
+    "run_name": "threads8_op5_iss2",
+    "num_threads": 8,
+    "op_lat": 5,
+    "issue_lat": 2,
+    "array_size": 1024,
+    "returncode": 0
+  },
+  {
+    "simTicks": 2427125500,
+    "simOps": 265850,
+    "simInsts": 146349,
+    "simSeconds": 0.002427,
+    "hostSeconds": 19.47,
+    "per_core": {
+      "0": {
+        "numCycles": 4854251,
+        "cpi": 263.188625,
+        "ipc": 0.0038
+      },
+      "1": {
+        "numCycles": 4461818,
+        "cpi": 244.228912,
+        "ipc": 0.004095
+      },
+      "2": {
+        "numCycles": 4462291,
+        "cpi": 244.254803,
+        "ipc": 0.004094
+      },
+      "3": {
+        "numCycles": 4462254,
+        "cpi": 244.252778,
+        "ipc": 0.004094
+      },
+      "4": {
+        "numCycles": 4460920,
+        "cpi": 244.179758,
+        "ipc": 0.004095
+      },
+      "5": {
+        "numCycles": 4462331,
+        "cpi": 244.256993,
+        "ipc": 0.004094
+      },
+      "6": {
+        "numCycles": 4462306,
+        "cpi": 244.255624,
+        "ipc": 0.004094
+      },
+      "7": {
+        "numCycles": 4461649,
+        "cpi": 243.92592,
+        "ipc": 0.0041
+      }
+    },
+    "floatsimd_issued": {
+      "0": 8658,
+      "1": 8658,
+      "2": 8658,
+      "3": 8658,
+      "4": 8658,
+      "5": 8658,
+      "6": 8658,
+      "7": 8660
+    },
+    "run_name": "threads8_op6_iss1",
+    "num_threads": 8,
+    "op_lat": 6,
+    "issue_lat": 1,
+    "array_size": 1024,
+    "returncode": 0
+  }
+]
